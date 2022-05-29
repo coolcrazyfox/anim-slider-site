@@ -375,6 +375,9 @@ span.top-menu__link {
 	margin: 0;
 	font-size: var(--small-text);
 }
+.home-callback__list li{
+	cursor: pointer;
+}
 .home-callback__list > * {
 	display: inline-block;
 	width: 32%;
