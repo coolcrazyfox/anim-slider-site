@@ -3,8 +3,8 @@
 :root {
 	--accent: #0f5dd3;
 
-	--accent-light: #09ff3a;
-	--accent-dark: #3eb011;
+	--accent-light: #9d2a43;
+	--accent-dark: rgba(235, 235, 235, 0.66);
 
 	--gutter: 20px;
 	--text: #333;
@@ -90,6 +90,7 @@ body {
 }
 .button:active {
 	background-color: var(--accent-dark);
+	color: black;
 }
 
 /* NAVBAR */
