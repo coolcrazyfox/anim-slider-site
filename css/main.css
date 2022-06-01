@@ -637,7 +637,27 @@ form input, form textarea {
 	display: inline-block;
 	width: 12px;
 	height: 15px;
-	background-image: url(../images/interface/mapmarker.svg);
+	background-image: url(../images/interface/BMW.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 8px;
+	position: relative;
+	top: 1.4px;
+}
+.download-line {
+	color: var(--address);
+	font-size: var(--small-text);
+	font-weight: 700;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.download-line::before {
+	content: '';
+	display: inline-block;
+	width: 12px;
+	height: 15px;
+	background-image: url(../images/interface/download.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-right: 8px;
