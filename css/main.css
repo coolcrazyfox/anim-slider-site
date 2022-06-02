@@ -472,7 +472,7 @@ form input, form textarea {
 	border: 1px solid var(--light-div);
 }
 
-/* BEST WORKS */
+/* PRICE */
 
 .price-container {
 	background-color: var(--light-bg);
@@ -504,11 +504,21 @@ form input, form textarea {
 	padding-left: 40px;
 }
 .price-links-bottom{
-	border:2px solid #0a53be;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+.price-menu{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	transition: opacity var(--transition), visibility var(--transition);
+}
+.price-img{
+	width: 2vw;
+	height: auto;
+}
+
 .best-works__bottom {
 	margin-top: -130px;
 	padding-bottom: 65px;
