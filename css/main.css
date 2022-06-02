@@ -4,7 +4,7 @@
 	--accent: #0f5dd3;
 
 	--accent-light: #0b67f6;
-	--accent-dark: rgb(157, 42, 67);
+	--accent-dark: rgba(157, 42, 67, 0.93);
 
 	--gutter: 20px;
 	--text: #333;
@@ -90,7 +90,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 	background-color: var(--accent-light);
-	box-shadow:  2px 2px 3px 0 rgba(255,255,255,.5),
+	box-shadow:  2px 2px 3px 0 rgba(40, 40, 40, 0.5),
 	-2px -2px 3px 0 rgba(116, 125, 136, .5),
 	inset -2px -2px 3px 0 rgba(255,255,255,.2),
 	inset 2px 2px 3px 0 rgba(0, 0, 0, .4);
@@ -101,7 +101,7 @@ body {
 	color: black;
 	box-shadow:  1px 1px 2px 0 rgba(255,255,255,.5),
 	-1px -1px 2px 0 rgba(116, 125, 136, .5),
-	inset -1px -1px 2px 0 rgba(255,255,255,.2),
+	inset -1px -1px 2px 0 rgba(0, 0, 0, .2),
 	inset 1px 1px 2px 0 rgba(0, 0, 0, .4);
 
 }
