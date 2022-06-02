@@ -3,8 +3,8 @@
 :root {
 	--accent: #0f5dd3;
 
-	--accent-light: #9d2a43;
-	--accent-dark: rgba(235, 235, 235, 0.66);
+	--accent-light: #0b67f6;
+	--accent-dark: rgb(157, 42, 67);
 
 	--gutter: 20px;
 	--text: #333;
@@ -82,15 +82,28 @@ body {
 	position: relative;
 	letter-spacing: .25px;
 	text-decoration: none;
+	/*background: rgb(96,9,240);*/
+	/*background: linear-gradient(0deg, var(--accent) 0%, var(--accent) 100%);*/
+	/*border: none;*/
 }
 .button:hover {
 	color: #fff;
 	text-decoration: none;
 	background-color: var(--accent-light);
+	box-shadow:  2px 2px 3px 0 rgba(255,255,255,.5),
+	-2px -2px 3px 0 rgba(116, 125, 136, .5),
+	inset -2px -2px 3px 0 rgba(255,255,255,.2),
+	inset 2px 2px 3px 0 rgba(0, 0, 0, .4);
+
 }
 .button:active {
 	background-color: var(--accent-dark);
 	color: black;
+	box-shadow:  1px 1px 2px 0 rgba(255,255,255,.5),
+	-1px -1px 2px 0 rgba(116, 125, 136, .5),
+	inset -1px -1px 2px 0 rgba(255,255,255,.2),
+	inset 1px 1px 2px 0 rgba(0, 0, 0, .4);
+
 }
 
 /* NAVBAR */
