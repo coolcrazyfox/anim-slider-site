@@ -651,6 +651,11 @@ form input, form textarea {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+
+}
+.download-line a{
+	text-decoration: none;
+	color: var(--address);
 }
 .download-line::before {
 	content: '';
