@@ -474,25 +474,25 @@ form input, form textarea {
 
 /* BEST WORKS */
 
-.best-works {
+.price-container {
 	background-color: var(--light-bg);
 }
-.best-works__top {
+.price__top {
 	background-color: var(--dark);
 	color: #fff;
 	padding-top: 65px;
 	padding-bottom: 170px;
 }
-.best-works__top-wrapper {
+.price__top-wrapper {
 	display: flex;
 	align-items: center;
 }
-.best-works__left,
-.best-works__right {
+.price__left,
+.price__right {
 	flex: 0 0 50%;
 	margin-bottom: var(--gutter);
 }
-.best-works__left {
+.price__left {
 	font-size: var(--small-text);
 	text-align: right;
 	padding-right: 40px;
@@ -500,8 +500,14 @@ form input, form textarea {
 	padding-bottom: 5px;
 	border-right: var(--dark-div) 1px solid;
 }
-.best-works__right {
+.price__right {
 	padding-left: 40px;
+}
+.price-links-bottom{
+	border:2px solid #0a53be;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .best-works__bottom {
 	margin-top: -130px;
@@ -569,7 +575,7 @@ form input, form textarea {
 .best-item__img-wrapper img {
 	width: 100%;
 }
-.best-item__content {
+.price-item__content {
 	padding: 25px;
 	color: var(--text);
 }

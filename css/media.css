@@ -77,7 +77,7 @@
 	.best-item__desc {
 		font-size: 16px;
 	}
-	.best-works__top {
+	.price__top {
 		padding-top: 40px;
 		padding-bottom: 155px;
 	}
@@ -98,10 +98,10 @@
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
 
-	.best-works__left {
+	.price__left {
 		display: none;
 	}
-	.best-works__right {
+	.price__right {
 		flex: 1;
 		margin: 0;
 		padding: 0;
