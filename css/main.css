@@ -426,6 +426,10 @@ span.top-menu__link {
 .home-callback__button {
 	margin-top: 20px;
 }
+.home-callback__button a{
+	text-decoration: none;
+	color: #fff;
+}
 
 /* MODAL */
 
